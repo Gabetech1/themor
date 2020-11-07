@@ -45,4 +45,10 @@ h2.section-heading.mt-3 {
     font-size: 16px;
 }
 
+@media (max-width: 991px) {
+    .subtitle {
+        margin-top: 40px;
+    }
+}
+
 .my-bg { background: #223555}
