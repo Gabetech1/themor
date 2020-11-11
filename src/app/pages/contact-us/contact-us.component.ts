@@ -23,10 +23,18 @@ form;
     }
 
     console.log(data)
-    this.api.sendMail(data).subscribe(res => {
+
+    this.api.sendForm(data).subscribe(
+      response => {
+        console.log(response);
+      }
+    );
+
+    
+   /*  this.api.sendMail(data).subscribe(res => {
       console.log(res)
     }, err => {
       console.log(err)
-    })
+    }) */
   }
 }
