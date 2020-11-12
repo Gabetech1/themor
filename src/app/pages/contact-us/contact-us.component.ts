@@ -22,11 +22,17 @@ form;
       message: info.value.message
     }
 
-    console.log(data)
+   // console.log(data)
 
-    this.api.sendForm(data).subscribe(
+    this.api.sendMail(data).subscribe(
       response => {
-        console.log(response);
+      //  console.log(response,'Messaeg sent');
+      },err=>{
+     //   console.log(err.error.text)
+      if(err.error.text == "Message sent successfully"){
+        info.reset()
+        alert('Message sent successfully')
+      }else{alert('Message sending failed')}
       }
     );
 
