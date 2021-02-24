@@ -26,17 +26,19 @@ form;
 
     this.api.sendMail(data).subscribe(
       response => {
-      //  console.log(response,'Messaeg sent');
+       // console.log(response,'Message sent');
+       info.reset()
+       alert('Message sent successfully')
       },err=>{
-     //   console.log(err.error.text)
-      if(err.error.text == "Message sent successfully"){
+        console.log(err)
+      if(err.error.text == "Message sent"){
         info.reset()
         alert('Message sent successfully')
       }else{alert('Message sending failed')}
       }
     );
 
-    
+
    /*  this.api.sendMail(data).subscribe(res => {
       console.log(res)
     }, err => {

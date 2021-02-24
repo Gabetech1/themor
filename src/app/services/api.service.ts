@@ -5,13 +5,14 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ApiService {
-  url = 'https://gabe205.tk/lawyer';
+  url = 'https://gabeshub.tk/nulbulk';
   //url = 'http://localhost/nulbulk/lawyer';
-  
+
   constructor(private http: HttpClient) {}
-  
+
   sendMail(data){
-    return  this.http.post(this.url+'/sendmail.php',data)  
+    console.log(data)
+    return  this.http.post(this.url+'/sendmail.php',data)
   }
 
 
