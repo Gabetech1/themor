@@ -11,13 +11,13 @@ export class ApiService {
   constructor(private http: HttpClient) {}
 
   sendMail(data){
-    console.log(data)
+    //console.log(data)
     return  this.http.post(this.url+'/sendmail.php',data)
   }
 
 
   sendForm(email){
-    console.log(email,email.email)
+    //console.log(email,email.email)
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
    return this.http.post('https://formspree.io/f/xdopzrvg',
       { name: email.name, replyto: email.email, message: email.message },
