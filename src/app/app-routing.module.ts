@@ -9,7 +9,7 @@ import { PracticeAreasComponent } from './pages/practice-areas/practice-areas.co
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'about-us', component: AboutUsComponent},
+  {path: 'about', component: AboutUsComponent},
   {path: 'practice-areas', component: PracticeAreasComponent},
   {path: 'attorneys', component: AttorneysComponent},
   {path: 'contact', component: ContactUsComponent},
