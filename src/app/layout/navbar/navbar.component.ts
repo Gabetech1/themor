@@ -11,7 +11,7 @@ export class NavbarComponent implements OnInit {
   constructor(private api: ApiService) { }
 
   ngOnInit() {
-    console.log(this.api.currentPage);
+    
   }
 
 }

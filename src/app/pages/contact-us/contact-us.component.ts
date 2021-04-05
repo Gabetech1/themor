@@ -37,12 +37,5 @@ form;
       }else{alert('Message sending failed')}
       }
     );
-
-
-   /*  this.api.sendMail(data).subscribe(res => {
-      console.log(res)
-    }, err => {
-      console.log(err)
-    }) */
   }
 }
