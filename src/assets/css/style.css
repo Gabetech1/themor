@@ -770,7 +770,7 @@ h3,
 .hero-banner {
     position: relative;
     height: 400px;
-    background: url("../img/banner/hero-banner.png") center center no-repeat;
+    background: url("../img/banner/lawslider.jpg") center center no-repeat;
     background-size: cover;
     z-index: 1
 }
