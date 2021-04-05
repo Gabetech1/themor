@@ -8,6 +8,8 @@ export class ApiService {
   url = 'https://gabeshub.tk/nulbulk';
   //url = 'http://localhost/nulbulk/lawyer';
 
+  currentPage="";
+
   constructor(private http: HttpClient) {}
 
   sendMail(data){
