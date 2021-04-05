@@ -75,7 +75,8 @@
             color: #fff;
         }
 
-         ::selection {
+         ::selection,
+        .single-footer-widget ::selection {
             background: #01183f;
             color: #fff;
         }
