@@ -10,7 +10,7 @@ import { PracticeAreasComponent } from './pages/practice-areas/practice-areas.co
 const routes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'about', component: AboutUsComponent},
-  {path: 'practice-areas', component: PracticeAreasComponent},
+  {path: 'practice', component: PracticeAreasComponent},
   {path: 'attorneys', component: AttorneysComponent},
   {path: 'contact', component: ContactUsComponent},
   {path: '**', redirectTo:'', pathMatch: 'full'},
