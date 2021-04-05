@@ -13,6 +13,7 @@ const routes: Routes = [
   {path: 'practice-areas', component: PracticeAreasComponent},
   {path: 'attorneys', component: AttorneysComponent},
   {path: 'contact-us', component: ContactUsComponent},
+  {path: '**', redirectTo:'', pathMatch: 'full'},
 ];
 
 @NgModule({

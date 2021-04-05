@@ -1,11 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
-.banner .custom-nav .owl-prev, .banner .custom-nav .owl-next {
-    display: none !important;
-}
+        @media (max-width: 991px) {
+            .header_area .navbar {
+                background: #fff !important;
+            }
+        }
 
-.rs-icon-funfact .body-content h1, .rs-icon-funfact .body-content h2, .rs-icon-funfact .body-content .banner-page .title-page, .banner-page .rs-icon-funfact .body-content .title-page, .rs-icon-funfact .body-content h3, .rs-icon-funfact .body-content h4, .rs-icon-funfact .body-content .rs-team-1 .title, .rs-team-1 .rs-icon-funfact .body-content .title, .rs-icon-funfact .body-content .rs-team-single .title, .rs-team-single .rs-icon-funfact .body-content .title, .rs-icon-funfact .body-content h4, .rs-icon-funfact .body-content .rs-team-1 .title, .rs-team-1 .rs-icon-funfact .body-content .title, .rs-icon-funfact .body-content .rs-team-single .title, .rs-team-single .rs-icon-funfact .body-content .title, .rs-icon-funfact .body-content h5, .rs-icon-funfact .body-content h6 {
-    clear: none;
-    margin-bottom: 0;
-    color: #fff;
-}
+        .navbar-light .navbar-toggler,
+        .navbar-toggler span {
+            color: #c2581e !important;
+            border-color: rgba(0, 0, 0, .1);
+        }
 
+        @media (max-width: 991px) {
+            .navbar-toggler span {
+                background: #c2581e !important;
+            }
+        }
+
+        .header-top {
+            background: #01183f;
+            color: #fff;
+            padding: 20px 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Lora", serif;
+            color: #01183f;
+            line-height: 1.25;
+        }
+
+        .card-subject__body a,
+        .card-team__body h3 a,
+        .footer-area {
+            color: #01183f;
+        }
+
+        .section-intro__title {
+            font-weight: 700;
+            color: #01183f;
+            margin-bottom: 15px;
+        }
+
+        .single-footer-widget p,
+        .single-footer-widget ul li a,
+        .footer-area {
+            color: #bbb;
+        }
+
+        .about__videoContent {
+            visibility: hidden;
+        }
+
+        .header_area.navbar_fixed .main_menu {
+            background: #fff;
+        }
+
+        .header_area.navbar_fixed .main_menu .navbar .nav .nav-item:hover .nav-link,
+        .header_area.navbar_fixed .main_menu .navbar .nav .nav-item.active .nav-link {
+            color: #de6320;
+        }
+
+        @media (min-width: 991px) {
+            .header_area .navbar {
+                padding: 0;
+            }
+        }
