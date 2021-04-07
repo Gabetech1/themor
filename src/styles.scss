@@ -3,25 +3,25 @@
                 background: #fff !important;
             }
         }
-
+        
         .navbar-light .navbar-toggler,
         .navbar-toggler span {
             color: #c2581e !important;
             border-color: rgba(0, 0, 0, .1);
         }
-
+        
         @media (max-width: 991px) {
             .navbar-toggler span {
                 background: #c2581e !important;
             }
         }
-
+        
         .header-top {
             background: #01183f;
             color: #fff;
-            padding: 20px 0;
+            padding: 10px 0;
         }
-
+        
         h1,
         h2,
         h3,
@@ -32,49 +32,49 @@
             color: #01183f;
             line-height: 1.25;
         }
-
+        
         .card-subject__body a,
         .card-team__body h3 a,
         .footer-area {
             color: #01183f;
         }
-
+        
         .section-intro__title {
             font-weight: 700;
             color: #01183f;
             margin-bottom: 15px;
         }
-
+        
         .single-footer-widget p,
         .single-footer-widget ul li a,
         .footer-area {
             color: #bbb;
         }
-
+        
         .about__videoContent {
             visibility: hidden;
         }
-
+        
         .header_area.navbar_fixed .main_menu {
             background: #fff;
         }
-
+        
         .header_area.navbar_fixed .main_menu .navbar .nav .nav-item:hover .nav-link,
         .header_area.navbar_fixed .main_menu .navbar .nav .nav-item.active .nav-link {
             color: #de6320;
         }
-
+        
         @media (min-width: 991px) {
             .header_area .navbar {
                 padding: 0;
             }
         }
-
+        
         .button:hover {
             background: #01183f;
             color: #fff;
         }
-
+        
          ::selection,
         .single-footer-widget ::selection {
             background: #01183f;
