@@ -12,7 +12,7 @@ export class ApiService {
 
   sendMail(data){
     console.log(data)
-    return  this.http.post(this.url+'/sendmail',data)
+    return  this.http.post(this.url+'/sendmail.php',data)
   }
 
 }
